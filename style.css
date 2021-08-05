@@ -2,6 +2,24 @@ body {
     color: white;
     background-color: black;
     font-family: 'Sacramento', cursive;
-    font-size: 150%;
+    font-size: 3em;
     margin: 5em 25%;
+    animation: fade-in 2s ease-in 0s 1 normal forwards;
+ }
+
+ .pilot {
+     color: maroon;
+ }
+
+ .control {
+    color: chartreuse;
+ }
+
+ @keyframes fade-in {
+     0% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
  }
